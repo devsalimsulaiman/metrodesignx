@@ -1,0 +1,397 @@
+@font-face {
+    font-family: 'Clarendon';
+    src: url(../fonts/clarendon/Clrndnk.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+.clarendons {
+    font-family: 'Clarendon';
+    line-height: 1.1;
+}
+
+.h3-caption {
+    border-left: rgb(170, 170, 170) 1px solid;
+    padding-left: 16px;
+}
+
+.brand-logo {
+    margin-top: 12px;
+}
+
+.links {
+    font-size: 14px;
+    /* font-weight: bold; */
+    margin-left: 12px;
+    color: #fff;
+}
+
+hr {
+				margin-top: -8px;
+}
+
+.tag {
+				margin-top: -4px;
+}
+
+.side-nav {
+    padding-top: 30%;
+    width: 60%;
+    text-align: left;
+}
+
+.side-nav li a {
+    font-size: larger;
+    color: #001564;
+    border-bottom: 1px solid #fff;
+}
+
+.container2 {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%
+}
+
+nav {
+    box-shadow: none !important;
+    padding-top: 8px;
+}
+
+
+.button-collapse i {
+    font-size: 240px;
+}
+
+
+.main-header {
+    background: url(../images/background-blue.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.main-header .showcase {
+    padding-top: 80px;
+}
+
+
+.btn {
+    background-color: transparent !important;
+    border-radius: 24px !important;
+    color: #001564;
+    border: 1px solid #fff;
+    text-transform: lowercase;
+}
+
+.btn:hover {
+    background-color: #fff !important;
+    color: #001564 !important;
+}
+
+.btn1 {
+    color: #fff;
+    width: 150px;
+    height: 40px !important;
+}
+
+
+section.section.grey.lighten-2 {
+    height: 250px;
+    padding-top: 14px;
+}
+
+
+#image-as-icon {
+    width: 50%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 16px !important;
+}
+
+.our-color {
+    background: #001564;
+    color: #fff !important;
+}
+
+.why-us {
+    background-color: #001564;
+    padding-top: 12%;
+    margin-top: -12%;    
+    background-image: url(../images/bg-lines.png);
+    padding-bottom: 2%;
+}
+
+.team-names {
+    font-size: 20px !important;
+    color: rgb(61, 60, 60) !important;
+}
+
+.team-roles {
+    font-size: 11px;
+    color: rgb(61, 60, 60) !important;
+}
+
+
+.container3 {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%
+}
+
+
+.d-inspiration {
+    font-size: 22px;
+}
+
+.card-panel img {
+    border: 4px solid white;
+    width: 130px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.card-panel-team {
+    height: auto;
+    border-radius: 3%;
+}
+
+
+.brief-info {
+    font-size: 11px !important;
+}
+
+.brief-info2 {
+    font-size: 11px !important;
+    color: rgb(61, 60, 60) !important;
+}
+
+p.center-align.white-text {
+    font-size: 14px !important;
+}
+
+.learning-about {
+    font-size: 14px;
+    text-align: center;
+}
+
+.box {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.our-color-text {
+    color: #0a1e6b !important;
+}
+
+blockquote {
+    
+    font-size: 14px !important;
+}
+
+
+.the-team {
+    margin-top: -60px;
+   /* background-image: url(../images/bg-lines2.png); */
+}
+
+.portfolio-btn {
+    border: 1px #001564 solid;
+}
+.portfolio-btn:hover {
+    background-color: #001564 !important;
+    color: #fff !important;
+    border: none;
+}
+.pre-footer {
+    margin-top: -10%;
+    color: #fff;
+    padding-top: 160px;
+    background: #001564;
+    background-image: url(../images/bg-lines.png);
+}
+
+.box i {
+    font-size: 24px;
+}
+
+.icons-margin {
+    margin-bottom: 12px;
+}
+
+
+.how-we-work {
+   background-image: url(../images/hexagon.png);
+    padding-bottom: 5%;
+    padding-top: 3%;
+    height: auto;
+}
+
+
+
+.card-panel i {
+    font-size: 48px;
+}
+
+.card-panel-icons {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+ul li {
+    font-size: 13px;
+}
+
+.modal-content ul li {
+    font-size: 13px;
+}
+
+.contact {
+    font-size: 13px;
+}
+
+h5 {
+    font-size: 16px;
+    color: #c8d0ee;
+}
+
+
+footer {
+    background-color: #fff;
+    height: 62px;
+    color: #001564;
+    font-weight: bold;
+    padding-top: 22px;
+    padding-bottom: 12px;
+}
+
+.bullet-list li {
+    list-style-type: disc !important;
+    margin-bottom: 8px !important;
+    font-size: 13px;
+}
+
+/* THE WORLD OF MEDIA Q U E R Y */
+
+/* pnone */
+@media only screen and (max-width: 600px) {
+
+    footer {
+        background-color: #fff;
+        height: 42px !important;
+        color: #001564;
+        font-weight: bold;
+        padding-top: 12px;
+    }
+
+    .main-header {
+        background: url(../images/background-blue.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 70vh;
+        color: #fff;
+        text-align: left;
+        border-bottom: none;        
+    }
+
+    #about-us{
+        text-align: justify;
+    }
+
+    .showcase h3 {
+        margin-top: -34px;
+    }
+
+    .card-content {
+        margin-top: -38px;
+    }
+
+    .card {
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .d-inspiration {
+        font-size: 18px;
+    }
+
+    blockquote {
+        font-size: 12px !important;
+    }
+
+    .brand-logo {
+        margin-left: -12px;
+        margin-top: 8px;
+        font-size: 22px !important;
+    }
+
+    .brand-logo img {
+        width: 130px;
+    }
+
+    a[data-activates="mobile-nav"] {
+        margin-right: 4px;       
+    }
+
+
+    .card-panel-team {
+        width: 300px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pre-footer {
+        margin-top: -10%;
+        padding-top: 80px !important;
+    }
+
+    ul li {
+        font-size: 12px;
+    }
+    .four {
+        font-size: 11px;
+        color: #fff !important;
+    }
+    
+    .brief-caption {
+        color: #fff;
+        font-size: 10px;
+    }
+
+    h4 {
+        font-size: 1.74rem;
+    }
+}
+
+
+/* tables / medium screens */
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+
+    .card-content {
+        margin-top: -35px;
+    }
+        
+    .how-we-work p {
+        font-size: 13px;
+    }
+    
+    .what-we-do {
+    				margin-bottom: 20%;
+    }
+}
+
+/* PC SCREEN ONLY */
+@media only screen and (min-width: 1201px) {
+
+    .card {
+        height: 260px;
+        width: auto;
+    }
+
+    .card-content {
+        margin-top: -25px;
+    }
+
+}
