@@ -4,7 +4,8 @@
     font-weight: 100;
     font-style: normal;
 }
-.clarendons {
+
+.clarendon {
     font-family: 'Clarendon';
     line-height: 1.1;
 }
@@ -26,16 +27,16 @@
 }
 
 hr {
-				margin-top: -8px;
+    margin-top: -8px;
 }
 
 .tag {
-				margin-top: -4px;
+    margin-top: -4px;
 }
 
 .side-nav {
     padding-top: 30%;
-    width: 60%;
+    width: 70%;
     text-align: left;
 }
 
@@ -117,8 +118,8 @@ section.section.grey.lighten-2 {
 
 .why-us {
     background-color: #001564;
-    padding-top: 12%;
-    margin-top: -12%;    
+    padding-top: 8%;
+    margin-top: -12%;
     background-image: url(../images/bg-lines.png);
     padding-bottom: 2%;
 }
@@ -186,24 +187,26 @@ p.center-align.white-text {
 }
 
 blockquote {
-    
+
     font-size: 14px !important;
 }
 
 
 .the-team {
     margin-top: -60px;
-   /* background-image: url(../images/bg-lines2.png); */
+    background-image: url(../images/bg-lines2.png);
 }
 
 .portfolio-btn {
     border: 1px #001564 solid;
 }
+
 .portfolio-btn:hover {
     background-color: #001564 !important;
     color: #fff !important;
     border: none;
 }
+
 .pre-footer {
     margin-top: -10%;
     color: #fff;
@@ -222,7 +225,7 @@ blockquote {
 
 
 .how-we-work {
-   background-image: url(../images/hexagon.png);
+    background-image: url(../images/hexagon.png);
     padding-bottom: 5%;
     padding-top: 3%;
     height: auto;
@@ -267,7 +270,7 @@ footer {
 }
 
 .bullet-list li {
-    list-style-type: disc !important;
+    list-style-type: square !important;
     margin-bottom: 8px !important;
     font-size: 13px;
 }
@@ -289,13 +292,13 @@ footer {
         background: url(../images/background-blue.jpg);
         background-size: cover;
         background-position: center;
-        min-height: 70vh;
+        min-height: 75vh;
         color: #fff;
         text-align: left;
-        border-bottom: none;        
+        border-bottom: none;
     }
 
-    #about-us{
+    #about-us {
         text-align: justify;
     }
 
@@ -331,7 +334,7 @@ footer {
     }
 
     a[data-activates="mobile-nav"] {
-        margin-right: 4px;       
+        margin-right: 4px;
     }
 
 
@@ -343,18 +346,19 @@ footer {
     }
 
     .pre-footer {
-        margin-top: -10%;
+        margin-top: -20%;
         padding-top: 80px !important;
     }
 
     ul li {
         font-size: 12px;
     }
+
     .four {
         font-size: 11px;
         color: #fff !important;
     }
-    
+
     .brief-caption {
         color: #fff;
         font-size: 10px;
@@ -372,13 +376,18 @@ footer {
     .card-content {
         margin-top: -35px;
     }
-        
+
     .how-we-work p {
         font-size: 13px;
     }
-    
+
     .what-we-do {
-    				margin-bottom: 20%;
+        margin-bottom: 20%;
+    }
+
+    .pre-footer {
+        margin-top: -20%;
+        padding-top: 80px !important;
     }
 }
 
