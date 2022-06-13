@@ -2,6 +2,11 @@
     overflow-x: hidden !important;
 }
 
+.team-brief {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
  .activator {
    text-transform: none;
 }
