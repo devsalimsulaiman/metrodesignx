@@ -2,6 +2,10 @@
     overflow-x: hidden !important;
 }
 
+ .activator {
+   text-transform: none;
+}
+
 @font-face {
     font-family: 'Clarendon';
     src: url(../fonts/clarendon/Clrndnk.ttf);
