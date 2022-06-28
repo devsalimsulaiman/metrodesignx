@@ -728,7 +728,9 @@
   <script>
     $(document).ready(function () {
       //  init side nav
-      $('.button-collapse').sideNav();
+      $('.button-collapse').sideNav({
+        closeOnClick: true
+       });
       // INIT PARALLAX
       $('.parallax').parallax();
       $('.carousel-slider').carousel({
