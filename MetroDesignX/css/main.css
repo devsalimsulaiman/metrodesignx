@@ -12,10 +12,6 @@
 }
 
 
-.myh4{
-margin-top: -24px;
-}
-
 @font-face {
     font-family: 'Clarendon';
     src: url(../fonts/clarendon/Clrndnk.ttf);
@@ -310,7 +306,7 @@ footer {
         background: url(../images/bg-test.png);
         background-size: cover;
         background-position: center;
-        min-height: 50vh;
+        min-height: 70vh;
         color: #fff;
         text-align: left;
         border-bottom: none;
