@@ -305,7 +305,7 @@ footer {
         background: url(../images/bg-test.png);
         background-size: cover;
         background-position: center;
-        min-height: 75vh;
+        min-height: 50vh;
         color: #fff;
         text-align: left;
         border-bottom: none;
